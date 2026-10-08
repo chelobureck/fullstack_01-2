@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FFFCF7; 
+}
+
+body {
+    background-color: #FFFCF7;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1181px;
+    width: 100%;
+    align-items: center;
+    padding: 16px 8px;
+    margin: 23px auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #260E07;
+}
+
+a {
+    text-decoration: none;
+    color: #344052;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    gap: 40px;
+}
+
+header input {
+    width: 220px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: #7C421E;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container_main {
+    max-width: 1181px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px 8px;
+}
+
+.main_section {
+    background-image: url('../images/main.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main_content {
+    max-width: 620px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    color: #260E07;
+    margin-bottom: 24px;
+}
+
+main p {
+    font-size: 20px;
+    color: #344052;
+    margin-bottom: 32px;
+}
+
+main input {
+    width: 250px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: #7C421E;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.blok_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 60px;
+}
+
+.blok {
+    flex: auto;
+    display: flex;
+    align-items: center;
+    padding: 24px 20px;
+    background-color: #FFFDFA;
+    border-radius: 16px;
+    border: 1px solid #F3EFEA; 
+    gap: 16px;
+}
+
+.blok img {
+    width: 48px;
+    height: 48px;
+}
+
+.blok_text h3 {
+    font-size: 18px;
+    color: #260E07;
+    margin-bottom: 4px;
+}
+
+.blok_text p {
+    font-size: 14px;
+    color: #344052;
+}
